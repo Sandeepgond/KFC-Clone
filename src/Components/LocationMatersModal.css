@@ -1,0 +1,25 @@
+#i{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+#black{
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+#btn-adjust1{
+    margin-left:65%;
+}
+#cross1{
+    margin-top: 20px;
+    margin-left: 90%;
+}
+.background{
+    opacity: 10%;
+    background-image: url("https://staticmapmaker.com/img/google-placeholder.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 700px;
+}

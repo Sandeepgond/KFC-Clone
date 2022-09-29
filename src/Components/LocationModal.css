@@ -1,0 +1,86 @@
+.modification{
+    padding: 0% 40.5%;
+    background-color: black;
+    color: white;
+    height: 40px;
+    z-index: 1;
+}
+.modification>p{
+    padding-top: .5%;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    z-index: 1;
+}
+.modification:hover{
+   cursor: pointer;
+   opacity: 80%;
+}
+.overlay{
+    width: 50%;
+    margin: auto;
+    height: auto;
+    margin-top: 20px;
+    background-color:#F8F7F5;
+    color: black;
+    z-index: 2;
+    border-radius: 25px;
+    margin-top: 15%;
+}
+.overlay>div>h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 0% 15%;
+}
+.overlay>div>p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0% 2%;
+}
+.start{
+    text-align: center;
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+    margin-top: 2%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.display{
+    width: 50%;
+    margin: auto;
+    background-color: red;
+    opacity: 10%;
+   
+}
+.btn-adjust{
+    display: flex;
+    width: 15%;
+    margin: auto;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 55%;
+    padding: 5% 0%;
+}
+.btn-adjust>Button{
+     background-color: rgb(31, 53, 22);
+     color: white;
+     padding: 10% 30%;
+     border-radius: 20px;
+     border: none;
+     font-size: larger;
+     font-weight: bold;
+     cursor: pointer;
+     
+}
+hr{
+    color: white ;
+}
+.cross{
+    margin-left: 115%;
+    margin-top: -25px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
