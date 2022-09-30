@@ -1,6 +1,6 @@
 import Footer from "./Footer";
 import "./Menu.css"
-
+import Featured from "./Menu/Featured";
 
 export default function Menu(){
     return (
@@ -17,52 +17,60 @@ export default function Menu(){
                     <p id="stay">Pot Pies & Bowls</p>
                     <p id="sna">Slides</p>
                     <p>Sauces</p>
-                    <p>Dessersts</p>
+                    <p>Desserts</p>
                     <p id="beve">Beverages</p>
                 </div>
 
                 <div id="right">
-                    {/* <br/>
                     <br/>
                     <br/>
-                    <h1>Match Day Special</h1>
-                    <div id="match_day">
+                    <br/>
+                    <h1>Featured</h1>
+                    <div id="featured"><Featured/>
                     </div>
                     <br/>
                     <br/>
-                    <h1>Chicken Buckets</h1>
-                    <div id="chicken_bucket">
+                    <h1>Buckets</h1>
+                    <div id="bucket">
                     </div>
                     <br/>
-
-                    <h1>Biryani Bucket</h1>
-                    <div id="biryani_bucket">
-                    </div>
-                    <br/>
-                    <br/>
-                    <h1>Box Meals</h1>
-                    <div id="box_meal">
-                    </div>
-                    <br/>
-                    <h1>Burgers</h1>
-                    <div id="burger">
+                    <h1>Tenders</h1>
+                    <div id="tender">
                     </div>
                     <br/>
                     <br/>
-                    <h1> Stay Home Specials</h1>
-                    <div id="stay_home">
+                    <h1>Sandwitches</h1>
+                    <div id="sand">
+                    </div>
+                    <br/>
+                    <h1>Fried Chicken</h1>
+                    <div id="fried_chicken">
                     </div>
                     <br/>
                     <br/>
-
-                    <h1>Snaks</h1>
-                    <div id="snaks">
+                    <h1> Pot Pies & Bowls</h1>
+                    <div id="pot">
+                    </div>
+                    <br/>
+                    <br/>
+                    <h1>Slides</h1>
+                    <div id="slide">
+                    </div>
+                    <br/>
+                    <br/>
+                    <h1>Sauces</h1>
+                    <div id="sauce">
+                    </div>
+                    <br/>
+                    <br/>
+                    <h1>Desserts</h1>
+                    <div id="dessert">
                     </div>
                     <br/>
                     <br/>
                     <h1> Beverages</h1>
                     <div id="beverages">
-                    </div> */}
+                    </div>
                 </div>
             </div>
           <Footer/>

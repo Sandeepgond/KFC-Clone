@@ -37,7 +37,11 @@ li:hover {
     width: 100%;
 }
 ul>p {
-    font-size: 14px;
+    font-size: 16px;
+}
+ul>li{
+    cursor: pointer;
+    font-size: 13px;
 }
 .lastbox44 {
     display: flex;

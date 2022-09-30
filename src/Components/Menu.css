@@ -5,17 +5,19 @@
     z-index: 1;
     position: relative;
     min-height: 100vh;
+    text-align: left;
 }
-#match_day {
+#featured {
     width: 100%;
     display: grid;
+    border: 1px solid red;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-gap: 20px;
     background-color: #f8f7f5;
 }
 
-#match_day div {
+#featured div {
     padding-left: 30px;
     padding-top: 50px;
     line-height: 15px;
@@ -26,27 +28,32 @@
     margin-left: -1%;
 }
 
-#chicken_bucket,
-#biryani_bucket,
-#box_meal,
-#burger,
-#stay_home,
-#snaks,
-#beverages {
+#bucket,
+#tender,
+#sand,
+#fried_chicken,
+#pot,
+#slide,
+#beverages,
+#dessert,
+#sauce {
     width: 100%;
+    border: 1px solid red;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     line-height: 15px;
 }
 
-#chicken_bucket div,
-#biryani_bucket div,
-#box_meal div,
-#burger div,
-#stay_home div,
-#snaks div,
-#beverages div {
+#bucket div,
+#tender div,
+#sand div,
+#fried_chicken div,
+#pot div,
+#slide div,
+#beverages,
+#dessert,
+#sauce div {
     padding-left: 14px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     height: 450px;
@@ -124,14 +131,16 @@ h3 {
     color: black;
     margin-top: -5px;
 }
-#match_day div p,
-#chicken_bucket div p,
-#biryani_bucket div p,
-#box_meal div p,
-#burger div p,
-#stay_home div p,
-#snaks div p,
-#beverages div p
+#featured div p,
+#bucket div p,
+#tender div p,
+#sand div p,
+#fried_chicken div p,
+#pot div p,
+#slide div p,
+#beverages,
+#dessert,
+#sauce div p
  {
      color: black;}
      #start_order{
