@@ -29,7 +29,7 @@
     text-decoration: underline;
 }
 .logo{
-    width: 110%;
+    width: 105%;
     height:110%;
     margin-top: -4%;
 }
@@ -51,12 +51,12 @@
 .start_btn:hover{
     opacity: 80%;
 }
-.start_btn+div>img{
-    width: 160%;
-    height: 140%;
+/* .start_btn+div>img{
+    width: 10%;
+    height: 10%;
    margin-top: -33%;
    margin-left: 40%;
-}
+} */
 /* .nav+div{
     background-color: black;
     color: white;

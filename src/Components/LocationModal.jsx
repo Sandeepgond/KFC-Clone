@@ -10,11 +10,12 @@ import {
     ModalCloseButton
   } from "@chakra-ui/react";
   import "./LocationModal.css"
+  import {FaMapMarkerAlt} from "react-icons/fa"
   export function LocationModal() {
     const { isOpen,onOpen,onClose}=useDisclosure();
     return (
       <>
-        <Button className="modification" onClick={onOpen}> <p>Start an order for pickup or delivery</p></Button> 
+        <div className="max-width"><Button className="modification" onClick={onOpen}> <p><FaMapMarkerAlt/>  Start an order for pickup or delivery</p></Button> </div>
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
           <ModalContent >

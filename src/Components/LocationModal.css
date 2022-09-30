@@ -1,9 +1,13 @@
+.max-width{
+    width: 99.88%;
+    background-color: black;
+}
 .modification{
-    padding: 0% 40.5%;
     background-color: black;
     color: white;
     height: 40px;
     z-index: 1;
+    cursor: pointer;
 }
 .modification>p{
     padding-top: .5%;
@@ -12,7 +16,7 @@
     color: white;
     z-index: 1;
 }
-.modification:hover{
+.max-width:hover{
    cursor: pointer;
    opacity: 80%;
 }

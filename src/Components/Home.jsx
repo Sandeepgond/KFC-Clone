@@ -3,9 +3,11 @@ import {FaArrowRight} from "react-icons/fa"
 import Footer from "./Footer"
 import { LocationMatersModal } from "./LocationMatersModal"
 import { Link } from "react-router-dom"
+
 export default function Home(){
     return (
         <>
+           
            <img className="img1" src="https://images.ctfassets.net/9tka4b3550oc/1kVHyQzS2pOuiFxgj6N6NY/cd1930942315f3663bdd387049f2971b/Desktop-2pcBigBox.jpg?q=75&w=1680" alt="" />          
            <div>
                <h3>FOR THE BUSY FAMILY</h3>

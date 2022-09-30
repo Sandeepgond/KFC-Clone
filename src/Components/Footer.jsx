@@ -1,10 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Footer.css"
-// import instagram from "../../instagram.svg"
-// import facebook from "../../assets/svg/facebook.svg"
-// import twitter from "../../assets/svg/twitter.svg"
-// import footkfc from "../../assets/svg/footkfc.svg"
 
 export default function Footer(){
     return (
@@ -20,7 +16,7 @@ export default function Footer(){
                     <br />
                     <div className="boxes44">
                         <div className="cards44">
-                            <img height={"110rem"} style={{ padding: "0px 5px", cursor: "pointer" }} src='https://1000logos.net/wp-content/uploads/2017/03/Kfc_logo-500x281.png' alt="" />
+                            <img height={"110rem"} style={{ padding: "14px 5px 0px 0px", cursor: "pointer" }} src='https://clone-kfc.netlify.app/static/media/footkfc.dd3745c80d803f896b8ad45b04926ab5.svg' alt="" />
                         </div>
                         <div className="cards44">
                             <ul>
