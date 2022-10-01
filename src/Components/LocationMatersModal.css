@@ -2,6 +2,7 @@
     border: none;
     background-color: white;
     cursor: pointer;
+   
 }
 #black{
     background-color: black;
@@ -10,7 +11,7 @@
     font-weight: bold;
 }
 #btn-adjust1{
-    margin-left:65%;
+    margin-left:65%;   
 }
 #cross1{
     margin-top: 20px;
