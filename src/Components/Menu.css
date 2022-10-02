@@ -2,7 +2,6 @@
     display: flex;
     width: 80%;
     margin: auto;
-    z-index: 1;
     position: relative;
     min-height: 100vh;
     text-align: left;
@@ -10,17 +9,17 @@
 #featured {
     width: 100%;
     display: grid;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-gap: 20px;
-    background-color: #f8f7f5;
+    cursor: pointer;
 }
 
 #featured div {
-    padding-left: 30px;
-    padding-top: 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     line-height: 15px;
+    height: auto;
 }
 #left>h1{
     font-size: 44px;
@@ -35,14 +34,16 @@
 #pot,
 #slide,
 #beverages,
-#dessert,
+#desserts,
 #sauce {
     width: 100%;
-    border: 1px solid red;
+    height: auto;
+    /* border: 1px solid red; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
+    gap: 20px;
     line-height: 15px;
+    cursor: pointer;
 }
 
 #bucket div,
@@ -51,18 +52,16 @@
 #fried_chicken div,
 #pot div,
 #slide div,
-#beverages,
-#dessert,
+#beverages div,
+#desserts div,
 #sauce div {
-    padding-left: 14px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    height: 450px;
+    height: auto;
 }
 
 #left {
     width: 20%;
     position: fixed;
-    /* border: 1px solid red; */
     margin-left: -1%;
     text-align: left;
 }
@@ -71,60 +70,32 @@
     width: 80%;
     margin-top: 60px;
     margin-left: 300px;
-
 }
-
 .Button {
     color: white;
-    background-color: red;
+    background-color: #E4002B;
     padding: 10px 45px 10px 45px;
     border-radius: 25px;
     cursor: pointer;
-    margin-left: 28px;
+    margin-left: 1%;
+    border: none;
 }
-
-#image {
-
-    width: 400px;
-    height: 400px;
-    border-radius: 10px;
-}
-
-.Rimage {
-    width: 100%;
-    height: 200px;
-    display: block;
-    align-items: center;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-/* p:hover {
-    cursor: pointer;
-} */
 h3 {
     font-weight: bold;
 }
-
-#pri {
-    font-weight: bold;
-}
-
 .Button:hover {
     background-color: rgb(130, 8, 8)
 }
-
-.Button:active {
+/* .Button:active {
     background-color: rgb(130, 8, 8);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-}
-
+} */
 #left p:hover {
     font-weight: bold;
     cursor: pointer;
+    text-decoration-line: underline;
 }
-
 #left p {
     font-size: larger;
     line-height:30px;
@@ -139,30 +110,28 @@ h3 {
 #pot div p,
 #slide div p,
 #beverages,
-#dessert,
+#desserts,
 #sauce div p
  {
-     color: black;}
-     #start_order{
-        display: flex;
-        gap: 20px;
-        width: 100%;
-        height: 70px;
-        background-color: #202124;
-        color: white;        
+     color: black;
+    font-size: 16px;
 }
-#lets{
-        margin-top: 20px;
-         margin-left: 600px;
+.hover {
+    display:grid;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
 }
-#btn_red{
-    cursor: pointer;
-        margin-top: 10px;
-        background-color: #e4002b;
-        width: 140px;
-        height: 40px;
-        border-radius: 20px;
-        border: none;
-        color: white;
-        letter-spacing: 1px;
-}
+.hover:hover,
+.hover:focus,
+.hover:active {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+} 
