@@ -1,5 +1,5 @@
 export default function Cart(){
     return (
-    <h1>Cart</h1>
+      <h1>No Items Present in the Cart</h1>
     )
 }
